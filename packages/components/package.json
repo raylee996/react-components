@@ -1,6 +1,6 @@
 {
   "name": "components",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "a react components set",
   "main": "dist/index.js",
   "scripts": {
@@ -49,6 +49,6 @@
     "@emotion/css": "^11.10.6",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
-    "shared": "workspace:^0.0.0"
+    "shared": "workspace:^0.1.0"
   }
 }

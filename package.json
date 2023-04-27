@@ -12,7 +12,7 @@
     "test:components": "pnpm run test --filter=components",
     "test:shared": "pnpm run test --filter=shared",
     "changeset:add": "changeset add && git add . && git commit -m \"docs: changeset\" && git push",
-    "changeset:publish": "changeset version && changeset publish"
+    "changeset:publish": "changeset version && git add . && git commit -m \"docs: changeset\" && git publish"
   },
   "keywords": [
     "react",
